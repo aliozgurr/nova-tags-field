@@ -459,8 +459,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 
 
@@ -477,9 +475,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         return {
             tags: this.field.value
         };
-    },
-    mounted: function mounted() {
-        console.log(this.field);
     },
 
 
@@ -27532,11 +27527,7 @@ var render = function() {
           }),
           _vm._v(" "),
           _vm.field.helpText
-            ? _c("help-text", { staticClass: "help-text mt-2" }, [
-                _vm._v(
-                  "\n            " + _vm._s(_vm.field.helpText) + "\n        "
-                )
-              ])
+            ? _c("help-text", { staticClass: "help-text mt-2" })
             : _vm._e()
         ],
         1
