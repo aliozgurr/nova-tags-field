@@ -37,6 +37,10 @@ export default {
         };
     },
 
+    mounted() {
+        console.log(this.field)
+    },
+
     components: {
         MultiTagsInput,
         SingleTagsInput,
